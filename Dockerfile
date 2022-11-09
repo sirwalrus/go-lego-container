@@ -1,4 +1,4 @@
-FROM registry.redhat.io/ubi9/go-toolset:latest as builder
+FROM registry.redhat.io/ubi8/go-toolset:latest as builder
 
 ENV GO111MODULE on
 
